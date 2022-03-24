@@ -127,4 +127,19 @@ body {
   .stat-text {
     font-size: 0.8rem;
   }
+  .image-container {
+    border-radius: 10px 10px 0 0;
+  }
+  .stats-container-img {
+    border-radius: 10px 10px 0 0;
+  }
+  .image-container::before {
+    content: "";
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    background: hsl(277, 64%, 61%);
+    opacity: 0.8;
+    border-radius: 10px 10px 0 0;
+  }
 }
